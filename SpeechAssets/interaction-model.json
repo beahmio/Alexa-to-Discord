@@ -1,0 +1,95 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "discord",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetAllChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": [
+                        "fetch text channels",
+                        "show text channels",
+                        "text channels",
+                        "get text channels"
+                    ]
+                },
+                {
+                    "name": "GetVoiceChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": [
+                        "get all channels",
+                        "show text channels",
+                        "text channels",
+                        "get text channels"
+                    ]
+                },
+                {
+                    "name": "GetTextChannelsFromGuildIntent",
+                    "slots": [],
+                    "samples": [
+                        "fetch text channels",
+                        "all channels",
+                        "show all channels",
+                        "voice channels"
+                    ]
+                },
+                {
+                    "name": "GetRolesFromGuildIntent",
+                    "slots": [],
+                    "samples": [
+                        "get roles",
+                        "all roles",
+                        "show roles",
+                        "fetch roles"
+                    ]
+                },
+                {
+                    "name": "GetGuildsIntent",
+                    "slots": [],
+                    "samples": [
+                        "get guilds",
+                        "guilds",
+                        "show guilds",
+                        "fetch guilds"
+                    ]
+                },
+                {
+                    "name": "SelectGuildIntent",
+                    "slots": [
+                        {
+                            "name": "Guild",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "select guild {Guild}",
+                        "choose guild {Guild}",
+                        "elect guild {Guild}",
+                        "guild {Guild}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
