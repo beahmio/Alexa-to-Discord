@@ -34,7 +34,7 @@
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>3.3.0_260</version>
+            <version>3.3.0_265</version>
         </dependency>
         <dependency>
             <groupId>com.amazon.alexa</groupId>
